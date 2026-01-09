@@ -9,8 +9,8 @@ _*NOTE: To keep the size of the repo as small as possible, please use the files 
 1. Clone the exercise files to your local system
 
     ```BASH
-    git clone https://github.com/LinkedInLearning/learning-nginx-2492317.git
-    cd learning-nginx-2492317/Ch05/05_04-challenge-build-an-nginx-container-image
+    git clone https://github.com/LinkedInLearning/learning-nginx-2492317-1.git
+    cd learning-nginx-2492317-1/Ch05/05_04-challenge-build-an-nginx-container-image
     ```
 
     - Take a look at the `Dockerfile` to review the `FROM`, `RUN`, and `COPY` commands.
@@ -38,5 +38,3 @@ _*NOTE: To keep the size of the repo as small as possible, please use the files 
     - [ ] [https://localhost/iphash](https://localhost/iphash)
     - [ ] [https://localhost/weighted](https://localhost/weighted)
     - [ ] [https://localhost/private](https://localhost/private) _Username `robots`, password `123456`_
-
-
