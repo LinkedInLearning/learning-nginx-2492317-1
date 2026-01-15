@@ -4,7 +4,7 @@ You can use the cloud provider of your choice but, to follow along with the cour
 
 If you need the steps to set up and connect to a server on AWS, there’s a previous lesson with all those details.
 
-1. Connect to a terminal sesson on your server.
+1. Connect to a terminal session on your server.
 1. Switch to the root user
 
         sudo su -
@@ -25,4 +25,7 @@ If you need the steps to set up and connect to a server on AWS, there’s a prev
 
         systemctl status nginx --no-pager
 
-
+<!-- FooterStart -->
+---
+[← 00_04 Set up a Lab Server](../../Ch00/00_04-set-up-a-lab-server/README.md) | [01_05 Inside nginx.conf →](../01_05-inside-nginx-conf/README.md)
+<!-- FooterEnd -->

@@ -4,7 +4,7 @@ To get the most out of this course, you’ll need access to a server where you c
 
 ## _*Don't use a production server*_
 
-Its reccommended to use a non-production, virtual machine hosted on a public cloud service running the [Ubuntu operating system](https://ubuntu.com/).
+Its recommended to use a non-production, virtual machine hosted on a public cloud service running the [Ubuntu operating system](https://ubuntu.com/).
 
 ## Use a Free Cloud Service Account
 Use the links below for more information on creating a free account on the following cloud services:
@@ -54,3 +54,7 @@ brew services reload nginx
 
 Also, note that file paths and other configurations may differ between what is mentioned in the course and what is in place in your macOS installation.
 
+<!-- FooterStart -->
+---
+[← Learning NGINX](../../README.md) | [01_02 Install NGINX on Ubuntu →](../../Ch01/01_02-install-nginx-on-ubuntu/README.md)
+<!-- FooterEnd -->

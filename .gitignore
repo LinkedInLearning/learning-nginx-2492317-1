@@ -2,3 +2,9 @@
 node_modules
 .tmp
 npm-debug.log
+*.bak
+.coverage
+__pycache__/
+pytest_junit.xml
+.idea/
+

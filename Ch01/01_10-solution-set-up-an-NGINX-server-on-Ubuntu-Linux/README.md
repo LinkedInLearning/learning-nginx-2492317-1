@@ -22,6 +22,10 @@ Set up an NGINX server for the new website.  Once the server is in place, the de
     systemctl status nginx --no-pager
     nginx -t
     ```
-1. Check the installation by viewing the webiste URL in a browser.  The page should show content similar to the following image:
+1. Check the installation by viewing the website URL in a browser.  The page should show content similar to the following image:
 ![Welcome to NGINX](./welcome-to-nginx.png)
 
+<!-- FooterStart -->
+---
+[← 01_09 Challenge: Set up an NGINX server on Ubuntu Linux](../01_09-challenge-set-up-an-NGINX-server-on-Ubuntu-Linux/README.md) | [02_02 Configure locations →](../../Ch02/02_02-configure-locations-part-1/README.md)
+<!-- FooterEnd -->

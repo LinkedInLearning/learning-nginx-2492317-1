@@ -56,3 +56,8 @@ server {
 	}
 }
 ```
+
+<!-- FooterStart -->
+---
+[← 02_02 Configure locations](../02_02-configure-locations-part-1/README.md) | [02_04 Configure logs →](../02_04-configure-logs/README.md)
+<!-- FooterEnd -->

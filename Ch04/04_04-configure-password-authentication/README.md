@@ -40,3 +40,8 @@ location /admin {
  	...
 }
 ```
+
+<!-- FooterStart -->
+---
+[← 04_03 Configure allow and deny directives](../04_03-configure-allow-and-deny-directives/README.md) | [04_06 Create an SSL certificate →](../04_06-create-an-ssl-certificate/README.md)
+<!-- FooterEnd -->

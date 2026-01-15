@@ -41,3 +41,7 @@ When Nginx processes locations, it uses a series of matches to determine the bes
 1. Then locations with prefixes.
 1. Then locations with regular expressions.
 
+<!-- FooterStart -->
+---
+[← 01_09 Challenge: Set up an NGINX server on Ubuntu Linux](../../Ch01/01_10-solution-set-up-an-NGINX-server-on-Ubuntu-Linux/README.md) | [02_03 Configure locations - Part 2 →](../02_03-configure-locations-part-2/README.md)
+<!-- FooterEnd -->

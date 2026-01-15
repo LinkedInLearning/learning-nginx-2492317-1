@@ -48,3 +48,8 @@ Secure a website using NGINX.
         ```
 
 1. Validate the configuration with a browser
+
+<!-- FooterStart -->
+---
+[← 04_08 Challenge: Secure a website with NGINX](../04_08-challenge-secure-a-website-with-nginx/README.md) | [05_02 Create an NGINX container image →](../../Ch05/05_02-run-an-nginx-container/README.md)
+<!-- FooterEnd -->

@@ -22,3 +22,8 @@ server {
     index index.html index.htm index.php;
 }
 ```
+
+<!-- FooterStart -->
+---
+[← 01_06 Configure a virtual host Part 1](../01_06-configure-a-virtual-host-part-1/README.md) | [01_08 Add files to the root directory →](../01_08-add-files-to-the-root-directory/README.md)
+<!-- FooterEnd -->

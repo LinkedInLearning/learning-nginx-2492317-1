@@ -27,3 +27,8 @@ Container image name ──────┘
     ```
 
 2. Open a browser to [http://localhost](http://localhost)
+
+<!-- FooterStart -->
+---
+[← 04_09 Solution: Secure a website with NGINX](../../Ch04/04_09-solution-secure-a-website-with-nginx/README.md) | [05_03 Build an NGINX container image →](../05_03-build-an-nginx-container-image/README.md)
+<!-- FooterEnd -->

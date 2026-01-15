@@ -39,9 +39,9 @@ Deploy an NGINX server with a custom configuration.
         }
     }
     ```
-1. Update the confguration to include a location for `/complete` that is only served on exact matches.
+1. Update the configuration to include a location for `/complete` that is only served on exact matches.
     1. Replace `________ADD_THE_CUSTOM_LOCATION_HERE________` with `location = /complete`.
-1. Update the location to use custom logging to a file named `complete.access.log` in the default logging locaiton for NGINX.
+1. Update the location to use custom logging to a file named `complete.access.log` in the default logging location for NGINX.
     1. Replace `________ADD_THE_CUSTOM_LOG_FILE_HERE________` with `/var/log/nginx/complete.access.log`.
 1. Validate the custom location by browsing to the DNS for your server using the route `/complete`.  For example, `http://example.com/complete`.
 1. Validate the custom logging by viewing the contents of the log file in `/var/log/nginx/`.
@@ -77,3 +77,8 @@ server {
     }
 }
 ```
+
+<!-- FooterStart -->
+---
+[← 02_06 Challenge: Customize an NGINX Configuration](../02_06-challenge-customize-an-nginx-configuration/README.md) | [03_03 Configure NGINX as a Reverse Proxy →](../../Ch03/03_03-configure-nginx-as-a-reverse-proxy/README.md)
+<!-- FooterEnd -->

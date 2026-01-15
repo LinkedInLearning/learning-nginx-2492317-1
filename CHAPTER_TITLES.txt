@@ -1,0 +1,27 @@
+00_04 Set up a Lab Server
+01_02 Install NGINX on Ubuntu
+01_05 Inside nginx.conf
+01_06 Configure a virtual host Part 1
+01_07 Configure a virtual host Part 2
+01_08 Add files to the root directory
+01_09 Challenge: Set up an NGINX server on Ubuntu Linux
+01_09 Challenge: Set up an NGINX server on Ubuntu Linux
+02_02 Configure locations
+02_03 Configure locations - Part 2
+02_04 Configure logs
+02_06 Challenge: Customize an NGINX Configuration
+02_07 Solution: Customize an NGINX Configuration
+03_03 Configure NGINX as a Reverse Proxy
+03_04 Configure NGINX as a Load Balancer
+03_05 Challenge: Set up a load balancer using NGINX
+03_06 Solution: Set up a load balancer using NGINX
+04_03 Configure allow and deny directives
+04_04 Configure Password Authentication
+04_06 Create an SSL certificate
+04_07 Configure NGINX to use an SSL certificate
+04_08 Challenge: Secure a website with NGINX
+04_09 Solution: Secure a website with NGINX
+05_02 Create an NGINX container image
+05_03 Build an NGINX container image
+05_04 Challenge: Build an NGINX container image
+05_05 Solution: Build an NGINX container image

@@ -27,7 +27,7 @@ _*NOTE: To keep the size of the repo as small as possible, please use the files 
     docker run --publish 443:443 binaryville
     ```
 
-1. Browse the site to find familiar locations.  _Note that you will have to use a browser that allows excpetions for self-signed certificates like [Firefox](https://www.mozilla.org/en-US/firefox/new/)_.
+1. Browse the site to find familiar locations.  _Note that you will have to use a browser that allows exceptions for self-signed certificates like [Firefox](https://www.mozilla.org/en-US/firefox/new/)_.
     - [ ] [https://localhost/](https://localhost/)
     - [ ] [https://localhost/images/](https://localhost/images/)
     - [ ] [https://localhost/missing](https://localhost/missing)
@@ -38,3 +38,8 @@ _*NOTE: To keep the size of the repo as small as possible, please use the files 
     - [ ] [https://localhost/iphash](https://localhost/iphash)
     - [ ] [https://localhost/weighted](https://localhost/weighted)
     - [ ] [https://localhost/private](https://localhost/private) _Username `robots`, password `123456`_
+
+<!-- FooterStart -->
+---
+[← 05_04 Challenge: Build an NGINX container image](../05_04-challenge-build-an-nginx-container-image/README.md) | [Learning NGINX →](../../README.md)
+<!-- FooterEnd -->

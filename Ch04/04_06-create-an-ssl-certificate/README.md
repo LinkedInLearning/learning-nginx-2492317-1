@@ -25,3 +25,8 @@ An SSL certificate is a digital certificate that authenticates a website's ident
         -keyout /etc/ssl/private/nginx.key \
         -out /etc/ssl/certs/nginx.crt
     ```
+
+<!-- FooterStart -->
+---
+[← 04_04 Configure Password Authentication](../04_04-configure-password-authentication/README.md) | [04_07 Configure NGINX to use an SSL certificate →](../04_07-configure-nginx-to-use-an-ssl-certificate/README.md)
+<!-- FooterEnd -->

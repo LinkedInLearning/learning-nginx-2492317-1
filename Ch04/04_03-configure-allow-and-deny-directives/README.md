@@ -40,3 +40,7 @@ Rules are applied in the order they are defined.
 curl https://api.ipify.org
 ```
 
+<!-- FooterStart -->
+---
+[← 03_06 Solution: Set up a load balancer using NGINX](../../Ch03/03_06-solution-set-up-a-load-balancer-using-nginx/README.md) | [04_04 Configure Password Authentication →](../04_04-configure-password-authentication/README.md)
+<!-- FooterEnd -->

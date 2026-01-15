@@ -73,3 +73,8 @@ server {
     }
 }
 ```
+
+<!-- FooterStart -->
+---
+[← 02_07 Solution: Customize an NGINX Configuration](../../Ch02/02_07-solution-customize-an-nginx-configuration/README.md) | [03_04 Configure NGINX as a Load Balancer →](../03_04-configure-nginx-as-load-balancer/README.md)
+<!-- FooterEnd -->

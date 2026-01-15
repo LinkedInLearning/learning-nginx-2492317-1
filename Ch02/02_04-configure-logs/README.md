@@ -75,3 +75,8 @@ server {
     }
 }
 ```
+
+<!-- FooterStart -->
+---
+[← 02_03 Configure locations - Part 2](../02_03-configure-locations-part-2/README.md) | [02_06 Challenge: Customize an NGINX Configuration →](../02_06-challenge-customize-an-nginx-configuration/README.md)
+<!-- FooterEnd -->

@@ -27,7 +27,7 @@ Build a container for the Binaryville website.
     docker run --publish 443:443 binaryville
     ```
 
-1. Browse the site to find familiar locations.  _Note that you will have to use a browser that allows excpetions for self-signed certificates like [Firefox](https://www.mozilla.org/en-US/firefox/new/)_.
+1. Browse the site to find familiar locations.  _Note that you will have to use a browser that allows exceptions for self-signed certificates like [Firefox](https://www.mozilla.org/en-US/firefox/new/)_.
     - [ ] [https://localhost/](https://localhost/)
     - [ ] [https://localhost/images/](https://localhost/images/)
     - [ ] [https://localhost/missing](https://localhost/missing)
@@ -38,3 +38,8 @@ Build a container for the Binaryville website.
     - [ ] [https://localhost/iphash](https://localhost/iphash)
     - [ ] [https://localhost/weighted](https://localhost/weighted)
     - [ ] [https://localhost/private](https://localhost/private) _Username `robots`, password `123456`_
+
+<!-- FooterStart -->
+---
+[← 05_03 Build an NGINX container image](../05_03-build-an-nginx-container-image/README.md) | [05_05 Solution: Build an NGINX container image →](../05_05-solution-build-an-nginx-container-image/README.md)
+<!-- FooterEnd -->

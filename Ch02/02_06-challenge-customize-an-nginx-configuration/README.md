@@ -34,7 +34,12 @@ Deploy an NGINX server with a custom configuration.
         }
     }
     ```
-1. Update the confguration to include a location for `/complete` that is only served on exact matches
-1. Update the location to use custom logging to a file named `complete.access.log` in the default logging locaiton for NGINX.
+1. Update the configuration to include a location for `/complete` that is only served on exact matches
+1. Update the location to use custom logging to a file named `complete.access.log` in the default logging location for NGINX.
 1. Validate the custom location by browsing to the DNS for your server using the route /complete. For example, http://example.com/complete.
 1. Validate the custom logging by viewing the contents of the log file in /var/log/nginx/.
+
+<!-- FooterStart -->
+---
+[← 02_04 Configure logs](../02_04-configure-logs/README.md) | [02_07 Solution: Customize an NGINX Configuration →](../02_07-solution-customize-an-nginx-configuration/README.md)
+<!-- FooterEnd -->

@@ -58,3 +58,8 @@ server {
 ```
 
 [binaryville.conf](./binaryville.conf)
+
+<!-- FooterStart -->
+---
+[← 04_06 Create an SSL certificate](../04_06-create-an-ssl-certificate/README.md) | [04_08 Challenge: Secure a website with NGINX →](../04_08-challenge-secure-a-website-with-nginx/README.md)
+<!-- FooterEnd -->

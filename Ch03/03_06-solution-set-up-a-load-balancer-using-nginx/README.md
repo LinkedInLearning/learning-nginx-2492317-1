@@ -5,7 +5,7 @@ Deploy a load balancer using NGINX.
 ## Solution
 
 1. Remove the default NGINX configuration.
-    1. Conect to your Ubuntu VM and install NGINX
+    1. Connect to your Ubuntu VM and install NGINX
     1. Remove the default configuration with `unlink /etc/nginx/sites-enabled/default`.
 1. Add the configuration file to the correct location on the server.
 
@@ -40,7 +40,7 @@ Deploy a load balancer using NGINX.
     ```
 
 1. Test your NGINX configuration in a browser using the address for your VM.
-1. Confirm that responses from the server show each port from the group in sequence along with a UUID.  Output should be simliar to the following:
+1. Confirm that responses from the server show each port from the group in sequence along with a UUID.  Output should be similar to the following:
 
     ```Bash
     # First request
@@ -80,3 +80,8 @@ server {
     }
 }
 ```
+
+<!-- FooterStart -->
+---
+[← 03_05 Challenge: Set up a load balancer using NGINX](../03_05-challenge-set-up-a-load-balancer-using-nginx/README.md) | [04_03 Configure allow and deny directives →](../../Ch04/04_03-configure-allow-and-deny-directives/README.md)
+<!-- FooterEnd -->

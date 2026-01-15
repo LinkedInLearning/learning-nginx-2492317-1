@@ -30,5 +30,7 @@ Deploy a load balancer using NGINX.
 1. Test your NGINX configuration in a browser using the address for your VM.
 1. Confirm that responses from the server show each port from the group in sequence along with a UUID.
 
-
-
+<!-- FooterStart -->
+---
+[← 03_04 Configure NGINX as a Load Balancer](../03_04-configure-nginx-as-load-balancer/README.md) | [03_06 Solution: Set up a load balancer using NGINX →](../03_06-solution-set-up-a-load-balancer-using-nginx/README.md)
+<!-- FooterEnd -->
