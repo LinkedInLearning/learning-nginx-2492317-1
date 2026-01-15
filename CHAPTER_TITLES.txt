@@ -5,7 +5,7 @@
 01_07 Configure a virtual host Part 2
 01_08 Add files to the root directory
 01_09 Challenge: Set up an NGINX server on Ubuntu Linux
-01_09 Challenge: Set up an NGINX server on Ubuntu Linux
+01_10 Solution: Set up an NGINX server on Ubuntu Linux
 02_02 Configure locations
 02_03 Configure locations - Part 2
 02_04 Configure logs

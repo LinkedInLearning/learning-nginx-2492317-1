@@ -15,5 +15,5 @@ Set up an NGINX server for the new website.  Once the server is in place, the de
 
 <!-- FooterStart -->
 ---
-[← 01_08 Add files to the root directory](../01_08-add-files-to-the-root-directory/README.md) | [01_09 Challenge: Set up an NGINX server on Ubuntu Linux →](../01_10-solution-set-up-an-NGINX-server-on-Ubuntu-Linux/README.md)
+[← 01_08 Add files to the root directory](../01_08-add-files-to-the-root-directory/README.md) | [01_10 Solution: Set up an NGINX server on Ubuntu Linux →](../01_10-solution-set-up-an-NGINX-server-on-Ubuntu-Linux/README.md)
 <!-- FooterEnd -->

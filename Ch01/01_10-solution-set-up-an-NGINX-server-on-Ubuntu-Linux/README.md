@@ -1,4 +1,4 @@
-# 01_09 Challenge: Set up an NGINX server on Ubuntu Linux
+# 01_10 Solution: Set up an NGINX server on Ubuntu Linux
 
 ## Scenario
 A web developer on your team has just completed the design for a new website.  It works perfectly on their laptop and now they want to share it with the rest of the team from a web server that everyone can access.
