@@ -12,17 +12,16 @@ The default logging configuration is in the main configuration file, nginx.conf,
 /etc/nginx/nginx.conf
 
 http {
-	...
-	access_log /var/log/nginx/access.log;
-	error_log /var/log/nginx/error.log;
-	...
+    ...
+    access_log /var/log/nginx/access.log;
+    error_log /var/log/nginx/error.log;
+    ...
 }
 ```
 
 This file has two directives: access log, and error log.
 
 If nginx is set up to serve multiple sites, all the requests, for all the sites will be written to the same logs.  This can become an issue if, for example, you need to find the access logs for one specific site.
-
 
 [binaryville.conf](./binaryville.conf)
 

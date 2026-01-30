@@ -1,47 +1,31 @@
 # Learning NGINX
-This is the repository for the LinkedIn Learning course `Learning NGINX`. The full course is available from [LinkedIn Learning][lil-course-url].
 
-![lil-thumbnail-url]
+This is the repository for the LinkedIn Learning course Learning NGINX. The full course is available from [LinkedIn Learning][lil-course-url].
 
-## Course Description
+![Learning NGINX][lil-thumbnail-url]
 
-_See the readme file in the main branch for updated instructions and information._
+Set up high-performance architecture with NGINX, the industry-standard, open-source web server. NGINX offers speed unmatched by competitors like Apache, on top of bonus features such as load balancing and HTTP caching. Its rising popularity makes NGINX an indispensable skill for designers, system administrators, and web technologists of all kinds. This beginner-level LinkedIn Learning training course shows you how to install and configure NGINX on a Linux machine before exploring the security features of NGINX including password authentication, HTTPS, and SSL certificates. Instructor Michael Jenkins demonstrates other NGINX features including reverse proxy and load balancer capabilities. You'll also see how NGINX can be used with Docker, a popular container framework, to create portable, self-contained applications.
+
 ## Instructions
-This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
 
-## Branches
-The branches are structured to correspond to the videos in the course. The naming convention is `CHAPTER#_MOVIE#`. As an example, the branch named `02_03` corresponds to the second chapter and the third video in that chapter. 
-Some branches will have a beginning and an end state. These are marked with the letters `b` for "beginning" and `e` for "end". The `b` branch contains the code as it is at the beginning of the movie. The `e` branch contains the code as it is at the end of the movie. The `main` branch holds the final state of the code when in the course.
-
-When switching from one exercise files branch to the next after making changes to the files, you may get a message like this:
-
-    error: Your local changes to the following files would be overwritten by checkout:        [files]
-    Please commit your changes or stash them before you switch branches.
-    Aborting
-
-To resolve this issue:
-	
-    Add changes to git using this command: git add .
-	Commit changes using this command: git commit -m "some message"
+See the readme file in each directory for updated instructions and information.
 
 ## Installing
-1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
 
-## Instructor
+1. To use these exercise files, clone this repository to your local machine using:
 
-Instructor name
+    - your terminal (Mac) or CMD (Windows) shell and the `git` command line interface
+    - a GUI tool like [GitHub Desktop](https://desktop.github.com/) or [SourceTree](https://www.sourcetreeapp.com/)
 
-Instructor description
+2. Follow any additional instructions in the README file for each lesson.
 
-                            
+### Instructor
 
-Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/).
+Michael Jenkins
 
+Lead Software Engineer, Systems Reliability Engineer
 
-[0]: # (Replace these placeholder URLs with actual course URLs)
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/michael-jenkins).
 
 [lil-course-url]: https://www.linkedin.com/learning/
 [lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D4E0DAQG0eDHsyOSqTA/learning-public-crop_675_1200/B4EZVdqqdwHUAY-/0/1741033220778?e=2147483647&v=beta&t=FxUDo6FA8W8CiFROwqfZKL_mzQhYx9loYLfjN-LNjgA

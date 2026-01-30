@@ -4,8 +4,7 @@ NGINX configurations are based on "server blocks" that use the server_name and l
 
 [Documentation for `server` from `ngx_http_core_module`](http://nginx.org/en/docs/http/ngx_http_core_module.html#server)
 
-
-# Basic server block configuration
+## Basic server block configuration
 
 [binaryville.conf](./binaryville.conf)
 

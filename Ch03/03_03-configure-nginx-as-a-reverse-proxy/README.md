@@ -4,9 +4,11 @@ The upstream module is one of the key components used to configure NGINX for pro
 
 You can find more information on the `upstream` and `proxy_pass` directives in the documentation on nginx.org.
 
-[`upstream` directive in ngx_http_upstream_module](https://nginx.org/en/docs/http/ngx_http_upstream_module.html#upstream)
+- [`upstream` directive in ngx_http_upstream_module](https://nginx.org/en/docs/http/ngx_http_upstream_module.html#upstream)
 
-[`Proxy_pass` directive in ngx_http_proxy_module](https://nginx.org/en/docs/http/ngx_http_proxy_module.html#proxy_pass)
+- [`Proxy_pass` directive in ngx_http_proxy_module](https://nginx.org/en/docs/http/ngx_http_proxy_module.html#proxy_pass)
+
+## Configuration File
 
 [binaryville.conf](./binaryville.conf)
 

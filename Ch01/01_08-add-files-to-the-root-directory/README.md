@@ -4,26 +4,26 @@ With a server configuration in place, add some content to your website.
 
 - Change to the root user and `cd` to the `/root` directory.
 
-```
+```bash
 sudo su -
 cd /root
 ```
 
 - Clone the exercise files to the server.
 
-```
+```bash
 git clone https://github.com/LinkedInLearning/learning-nginx-2492317-1.git
 ```
 
 - Un-tar the archive into the NGINX root directory
 
-```
+```bash
 tar xvf ~/learning-nginx-2492317-1/Binaryville_robot_website_LIL_107684.tgz --directory /var/www/binaryville/
 ```
 
 - Confirm the files have been placed in the correct location
 
-```
+```bash
 ls -ltr /var/www/binaryville/
 ```
 

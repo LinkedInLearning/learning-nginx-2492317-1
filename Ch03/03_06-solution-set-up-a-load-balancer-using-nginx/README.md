@@ -9,7 +9,7 @@ Deploy a load balancer using NGINX.
     1. Remove the default configuration with `unlink /etc/nginx/sites-enabled/default`.
 1. Add the configuration file to the correct location on the server.
 
-    ```
+    ```bash
     mv load_balancer.conf /etc/nginx/conf.d
     ```
 

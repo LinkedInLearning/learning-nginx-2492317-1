@@ -16,6 +16,7 @@ Secure a website using NGINX.
         # ADD BASIC AUTH CONFIGURATION HERE
     }
     ```
+
 1. Allow  access with username “CEO” with password “qwerty”
 1. Validate the configuration with a browser
 

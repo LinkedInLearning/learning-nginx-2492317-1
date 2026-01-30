@@ -3,16 +3,20 @@
 Deploy an NGINX server with a custom configuration.
 
 ## Solution
+
 1. Remove the default NGINX configuration.  Connect to the server where a fresh installation of NGINX is in place. Run the following commands:
-    ```
+
+    ```bash
     sudo su -
     cd /etc/nginx/sites-enabled
     unlink default
     ```
+
 1. Add the provided configuration file to the server as `/etc/nginx/conf.d/complete.conf`:
 
     [complete.conf](./complete.conf)
-    ```
+
+    ```NGINX
     server {
         listen 80 default_server;
         listen [::]:80;
@@ -39,6 +43,7 @@ Deploy an NGINX server with a custom configuration.
         }
     }
     ```
+
 1. Update the configuration to include a location for `/complete` that is only served on exact matches.
     1. Replace `________ADD_THE_CUSTOM_LOCATION_HERE________` with `location = /complete`.
 1. Update the location to use custom logging to a file named `complete.access.log` in the default logging location for NGINX.

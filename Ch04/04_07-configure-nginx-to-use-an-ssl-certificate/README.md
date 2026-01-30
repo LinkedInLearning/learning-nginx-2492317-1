@@ -3,6 +3,7 @@
 An SSL certificate is a digital certificate that authenticates a website's identity and helps encrypt the connection between a browser and a web server.
 
 ## Create a Self-Signed SSL Certificate
+
 1. Check for the `openssl` command on your system
 
     ```BASH
@@ -20,13 +21,14 @@ An SSL certificate is a digital certificate that authenticates a website's ident
     - Create a certificate
     - Sign the certificate with the key
 
-    ```
+    ```bash
     openssl req -batch -x509 -nodes -days 365 -newkey rsa:2048 \
         -keyout /etc/ssl/private/nginx.key \
         -out /etc/ssl/certs/nginx.crt
     ```
 
 ## Redirecting non-SSL requests
+
 Use a server block to redirect all requests to the HTTPS server.
 
 ```NGINX
@@ -41,12 +43,12 @@ Check the documentation for more information on NGINX variables.
 [Alphabetical index of variables](http://nginx.org/en/docs/varindex.html)
 
 ## Configuring SSL
+
 The HTTPS server block should be configured to listen on port 443.  This is the standard port used to serve encrypted traffic.
 
 Following the Port is the directive `ssl`.  This tells NGINX to process requests using SSL.
 
 The next two lines let NGINX know where to find the SSL certificate and the certificate key to use for encryption and identification.
-
 
 ```NGINX
 server {
